@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Latolight';
+    src: url('../fonts/latolight.ttf') format('ttf'),
+         url('../fonts/latolight.woff2') format('woff2'),
+         url('../fonts/latolight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+    
+@font-face {
+    font-family: 'Latobold';
+    src: url('../fonts/latobold.ttf') format('ttf'),
+         url('../fonts/latobold.woff2') format('woff2'),
+         url('../fonts/latobold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miso';
+    src: url('../fonts/miso.otf') format('otf'),
+         url('../fonts/miso-light.otf') format('otf'),
+         url('../fonts/miso-bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .4s ease-in;
+}
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background: #282828;
+    min-height: 100%;
+    font-family: 'Latolight', 'Latobold','Miso';
+    font-size: 2rem;
+    color: #ffffff;
+    line-height: 1;
+    display: flex;
+    margin: auto;
+    
+         
+}
+
+.section {
+    height: 600px;
+    max-width: 1200px;
+    width: 96%;
+    background-color: #fdde7e;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 8rem 1.5rem;
+}
+
+.box__content {
+    width: calc(100% / 3 - 30px);
+    background: white;
+    font-family: 'Latolight', 'Latobold','Miso';
+    color: black;
+    margin: 0 1.5rem;
+    box-shadow: 2px 2px 6px #cab265;
+    letter-spacing: 0.1px;
+}
+
+.text__center {
+    text-align: center;
+}
+
+.box__content--big {
+    margin: -3rem 1.5rem;
+}
+
+
+.box__content--small .box__price {
+    padding: 4rem 10rem 2rem 10rem;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #02995b;
+   
+}
+
+
+.box__content--big .box__price {
+    padding: 5rem 10rem 4rem 10rem;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #02995b;
+}
+
+
+.box__text .name {
+   font-weight: 700;
+   font-size: 4.5rem;
+}
+
+.box__text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.box__img {
+  margin-bottom: 3rem;
+  padding-left: 6rem;
+  margin-top: 1rem;
+}
+
+.corn {
+    z-index: 2;
+    transform: translate(-275%,-40%);
+}
+
+
+
+
+
+
+
+
